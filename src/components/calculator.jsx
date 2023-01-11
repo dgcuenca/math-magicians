@@ -9,7 +9,7 @@ class Calculator extends Component {
 
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container w-75">
         <div className="row">
           <div className="col bg-secondary text-end border-secondary text-white">0</div>
         </div>
