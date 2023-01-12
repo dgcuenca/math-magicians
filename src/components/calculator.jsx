@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import calculate from '../logic/calculate';
-import operate from '../logic/operate'
 
 class Calculator extends Component {
 	
@@ -23,7 +22,7 @@ class Calculator extends Component {
     return (
       <div className="container w-75">
         <div className="row">
-          <div className="col bg-secondary text-end border-secondary text-white" id="displayCalculator">{this.state.next||this.state.operation||this.state.total}</div>
+          <div className="col bg-secondary text-end border-secondary text-white">{this.state.next||this.state.operation||this.state.total}</div>
         </div>
 				<div className="row">
           <button className="col-3 bg-light text-center border-secondary border border-1" onClick={this.onChangeHandler}>AC</button>
