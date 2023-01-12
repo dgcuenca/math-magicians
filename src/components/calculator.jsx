@@ -6,11 +6,17 @@ class Calculator extends Component {
 	
 	constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      total: '0',
+      next: '0',
+      operation: null,
+    };
+    this.onChangeHandler = this.onChangeHandler.bind(this);
   }
 
   onChangeHandler = (event) => {
-    console.log(event.target.innerText, typeof event.target.innerText);
+    this.setState( state => (calculate(state, event.target.innerText )));
+    console.log(this.state)
   };
 
   render() {
@@ -23,13 +29,13 @@ class Calculator extends Component {
           <button className="col-3 bg-light text-center border-secondary border border-1" onClick={this.onChangeHandler}>AC</button>
 					<button className="col-3 bg-light text-center border-secondary border border-1" onClick={this.onChangeHandler}>+/-</button>
 					<button className="col-3 bg-light text-center border-secondary border border-1" onClick={this.onChangeHandler}>%</button>
-					<button className="col-3 bg-warning text-center border-secondary border border-1" onClick={this.onChangeHandler}>/</button>
+					<button className="col-3 bg-warning text-center border-secondary border border-1" onClick={this.onChangeHandler}>÷</button>
         </div>
 				<div className="row">
           <button className="col-3 bg-light text-center border-secondary border border-1" onClick={this.onChangeHandler}>7</button>
 					<button className="col-3 bg-light text-center border-secondary border border-1" onClick={this.onChangeHandler}>8</button>
 					<button className="col-3 bg-light text-center border-secondary border border-1" onClick={this.onChangeHandler}>9</button>
-					<button className="col-3 bg-warning text-center border-secondary border border-1" onClick={this.onChangeHandler}>*</button>
+					<button className="col-3 bg-warning text-center border-secondary border border-1" onClick={this.onChangeHandler}>x</button>
         </div>
 				<div className="row">
           <button className="col-3 bg-light text-center border-secondary border border-1" onClick={this.onChangeHandler}>4</button>
