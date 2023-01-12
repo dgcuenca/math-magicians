@@ -15,7 +15,6 @@ class Calculator extends Component {
 
   onChangeHandler = (event) => {
     this.setState( state => (calculate(state, event.target.innerText )));
-    console.log(this.state)
   };
 
   render() {
