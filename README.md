@@ -18,16 +18,13 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 
@@ -37,8 +34,6 @@
 
 > Make simple calculations.
 > Read a random math-related quote.
-
-
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -73,16 +68,14 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[Calculator for basic operations]**
+- **[Single Page App]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Watch it in action](https://dgcuenca.github.io/math-magicians)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,75 +91,28 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- NodeJs
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+- git clone git@github.com:dgcuenca/math-magicians.git
+- cd math-magicians
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+Install dependencies:
 
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+- npm i
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+To run the project open the html file in your web browser.
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+-[Gh Pages](https://github.com/gitname/react-gh-pages)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,7 +135,7 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Improve styling]**
+- [ ] **[Add interactivity when over and click a button in the calculator]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,7 +145,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/dgcuenca/math-magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,7 +155,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -219,23 +165,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+I would like to thank all my micronauts classmates.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
