@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
 
 const Calculator = ({ total: initialTotal, next: initialNext, operation: initialOperation }) => {
@@ -60,3 +61,15 @@ const Calculator = ({ total: initialTotal, next: initialNext, operation: initial
   );
 };
 export default Calculator;
+
+Calculator.propTypes = {
+  total: PropTypes.string,
+  next: PropTypes.string,
+  operation: PropTypes.string,
+};
+
+Calculator.defaultProps = {
+  total: 0,
+  next: null,
+  operation: null,
+};
