@@ -3,7 +3,7 @@ import React from 'react';
 const Quote = () => {
   return (
     <div>
-      <h3>Quote</h3>
+      <h2>Quote</h2>
     </div>
   );
 };
