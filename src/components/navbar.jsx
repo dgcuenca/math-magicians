@@ -25,15 +25,13 @@ const Navbar = () => {
     <nav className="navBar">
       <h1>Math Magicians</h1>
       <ul className="ulNavbar">
-        {links.map((link) => {
-          return (
-            <li key={link.id}>
-              <NavLink to={link.path}>
-                {link.text}
-              </NavLink>
-            </li>
-          );
-        })}
+        {links.map((link) => (
+          <li key={link.id}>
+            <NavLink to={link.path}>
+              {link.text}
+            </NavLink>
+          </li>
+        ))}
       </ul>
     </nav>
   );
