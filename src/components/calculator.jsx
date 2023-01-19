@@ -18,10 +18,15 @@ const Calculator = ({ total: initialTotal, next: initialNext, operation: initial
     setOperation(newOperation);
   };
 
+  const myStyle = {
+    display: 'flex',
+    alignItems: 'center',
+  };
+
   return (
-    <>
-      <div>
-        <p>Let&#39;s do some math!</p>
+    <div style={{ display: 'flex' }}>
+      <div style={myStyle}>
+        <p style={{ marginLeft: 20 }}>Let&#39;s do some math!</p>
       </div>
       <div className="container w-75">
         <div className="row">
@@ -57,7 +62,7 @@ const Calculator = ({ total: initialTotal, next: initialNext, operation: initial
           <button className="col-3 bg-warning text-center border-secondary border border-1" onClick={onChangeHandler} type="button">=</button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export default Calculator;
@@ -69,7 +74,7 @@ Calculator.propTypes = {
 };
 
 Calculator.defaultProps = {
-  total: 0,
+  total: '0',
   next: null,
   operation: null,
 };
