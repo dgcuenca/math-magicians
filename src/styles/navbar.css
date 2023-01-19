@@ -1,0 +1,18 @@
+.navBar {
+    display: flex;
+    background-color: antiquewhite;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+}
+
+.ulNavbar {
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+    gap: 10px;
+}
+
+.active {
+    color: red;
+    font-weight: bold;
+}

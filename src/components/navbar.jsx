@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import '../styles/navbar.css';
 
 const Navbar = () => {
   const links = [
@@ -23,7 +24,7 @@ const Navbar = () => {
   return (
     <nav className="navBar">
       <h1>Math Magicians</h1>
-      <ul>
+      <ul className="ulNavbar">
         {links.map((link) => {
           return (
             <li key={link.id}>
