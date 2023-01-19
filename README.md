@@ -75,7 +75,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Watch it in action](https://dgcuenca.github.io/math-magicians/)
+- [Watch it in action](https://math-magicians-4d3o.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
